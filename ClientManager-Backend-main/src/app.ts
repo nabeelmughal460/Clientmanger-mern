@@ -1,7 +1,8 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import { fileURLToPath } from "url";
+// import { fileURLToPath } from "url";
+import { fileURLToPath } from "node:url";
 // import path from "path";
 import path from 'node:path';
 import cors from "cors";
