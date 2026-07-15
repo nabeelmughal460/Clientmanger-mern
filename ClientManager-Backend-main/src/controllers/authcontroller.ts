@@ -6,7 +6,7 @@ import { generateTokens } from "../utilities/generatetokens.js";
 
 export const testAuthFunction = async (_req: Request, res: Response) => {
   res.json({
-    message: "Auth controller function is working",
+    message: "Auth controller function is working fine!",
     timestamp: new Date().toISOString(),
   });
 };
