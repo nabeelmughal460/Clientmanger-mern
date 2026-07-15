@@ -1,5 +1,6 @@
 import type { Response, Request } from "express";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import User from "../models/user.js";
 import { generateTokens } from "../utilities/generatetokens.js";
 
