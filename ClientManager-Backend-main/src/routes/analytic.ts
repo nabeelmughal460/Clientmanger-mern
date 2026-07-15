@@ -6,6 +6,7 @@ import { protect } from "../middleware/authmiddleware.js";
 import { GetRevenueData} from '../controllers/analyticsController.js';
 
 /*const router = express.Router();*/
+// const router: Router = express.Router();
 const router: Router = express.Router();
 
 

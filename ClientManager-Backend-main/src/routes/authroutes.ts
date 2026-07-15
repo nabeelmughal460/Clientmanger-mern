@@ -6,6 +6,7 @@ import { protect } from "../middleware/authmiddleware.js";
 import { testAuthFunction } from "../controllers/authcontroller.js";
 
 // const router = express.Router();
+// const router: Router = express.Router();
 const router: Router = express.Router();
 
 router.get('/test', (req, res) => {
