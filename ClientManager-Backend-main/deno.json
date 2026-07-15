@@ -1,4 +1,5 @@
 {
+  "nodeModulesDir": "auto",
   "imports": {
     "path": "node:path",
     "fs": "node:fs",
@@ -8,7 +9,6 @@
     "url": "node:url",
     "util": "node:util",
     "stream": "node:stream",
-    "events": "node:events",
-    "nodeModulesDir": "auto"
+    "events": "node:events"
   }
 }
