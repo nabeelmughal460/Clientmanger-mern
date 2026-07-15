@@ -8,6 +8,7 @@
     "url": "node:url",
     "util": "node:util",
     "stream": "node:stream",
-    "events": "node:events"
+    "events": "node:events",
+    "nodeModulesDir": "auto"
   }
 }
