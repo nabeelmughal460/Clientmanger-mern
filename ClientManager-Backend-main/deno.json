@@ -1,5 +1,5 @@
 {
-  "nodeModulesDir": "auto",
+  "nodeModulesDir": "autoo",
   "imports": {
     "path": "node:path",
     "fs": "node:fs",
