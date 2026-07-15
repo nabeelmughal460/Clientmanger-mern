@@ -1,4 +1,6 @@
 import express from "express";
+// import express from "express";
+import type { Router } from "express";
 import {
   createClient,
   getClients,
@@ -14,7 +16,9 @@ import {
 } from "../controllers/notecontroller.js";
 import { protect } from "../middleware/authmiddleware.js";
 
-const router = express.Router();
+// const router = express.Router();
+const router: Router = express.Router();
+
 
 router.post("/clients", protect, createClient);
 router.get("/clients", protect, getClients);

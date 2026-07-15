@@ -1,4 +1,6 @@
 import express from 'express';
+// import express from "express";
+import type { Router } from "express";
 import {
     createProject,
     getProjects,
@@ -9,7 +11,9 @@ import {
 import { protect } from '../middleware/authmiddleware.js';
 import { getProjectProfit } from '../controllers/projectController.js';
 
-const router = express.Router();
+// const router = express.Router();
+const router: Router = express.Router();
+
 
 router.post("/", protect, createProject);
 router.get("/", protect, getProjects);

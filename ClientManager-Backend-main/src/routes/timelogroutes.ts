@@ -1,11 +1,15 @@
 import express from "express";
+// import express from "express";
+import type { Router } from "express";
 import {
   CreateLogTime,
   GetTimeLogsByProject
 } from "../controllers/timeComtroller.js";
 import { protect } from "../middleware/authmiddleware.js";
 
-const router = express.Router();
+// const router = express.Router();
+const router: Router = express.Router();
+
 
 router.post("/", protect, CreateLogTime);
 router.get("/:projectId", protect, GetTimeLogsByProject);

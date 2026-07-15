@@ -1,4 +1,6 @@
 import express from "express";
+// import express from "express";
+import type { Express } from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 // import { fileURLToPath } from "url";
@@ -21,7 +23,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, "..", ".env") });
 
-const app = express();
+// const app = express();
+const app: Express = express(); // for deno.deploy
 // Add this BEFORE all other routes
 app.get('/api/ping', (req, res) => {
     res.json({ message: 'pong', timestamp: new Date().toISOString() });
