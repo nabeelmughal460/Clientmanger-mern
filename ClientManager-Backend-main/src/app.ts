@@ -65,7 +65,11 @@ app.use((req, res, next) => {
 });
 app.use(
   cors({
-    origin:["http://localhost:5173", "https://client-manager-frontend-vwyz.vercel.app"],
+    origin: [
+      "http://localhost:5173",
+      "https://clientmanger-mern.vercel.app",
+      "https://client-manager-frontend-vwyz.vercel.app"
+    ],
     credentials: true,
   })
 );
