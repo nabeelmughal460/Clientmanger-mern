@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "path": "node:path",
+    "fs": "node:fs",
+    "http": "node:http",
+    "crypto": "node:crypto",
+    "os": "node:os",
+    "url": "node:url",
+    "util": "node:util",
+    "stream": "node:stream",
+    "events": "node:events"
+  }
+}
