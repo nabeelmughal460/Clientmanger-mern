@@ -8,6 +8,7 @@ import {
 import { protect } from "../middleware/authmiddleware.js";
 
 // const router = express.Router();
+// const router: Router = express.Router();
 const router: Router = express.Router();
 
 
